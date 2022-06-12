@@ -1,0 +1,2214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="04/16/18||10:20:58" using="Simscape Multibody Link Version 5.2" from="SolidWorks 24.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem4" uid="Assem4" version="756">
+<AssemblyFile name="Assem4.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="support-1" uid="support-1" grounded="true" entityUid="support*:*Default">
+<Transform>
+<Rotation>2.09488880330588e-14 1 6.9829626776862667e-15 0 -6.9829626776862667e-15 1 1 -2.09488880330588e-14 0</Rotation>
+<Translation>0.15125348723423307 0.11740566516600481 0.57563261820205269</Translation>
+</Transform>
+</Instance>
+<Instance name="Palier3-1" uid="Palier3-1" entityUid="Palier3*:*Default">
+<Transform>
+<Rotation>8.0231624788318356e-08 0.99999999999999689 6.9829626776861326e-15 5.617910080193815e-16 -6.9829627227595511e-15 1 0.99999999999999689 -8.0231624788318356e-08 -5.6179156827382533e-16</Rotation>
+<Translation>0.28725348242056747 0.42320566516674746 0.57563262252509551</Translation>
+</Transform>
+</Instance>
+<Instance name="Palier3-2" uid="Palier3-2" entityUid="Palier3*:*Default">
+<Transform>
+<Rotation>2.0948888033058806e-14 1 6.9829626776862004e-15 1.9428902930940239e-15 -6.9829626776862446e-15 1.0000000000000002 1.0000000000000002 -2.0948888033058794e-14 -1.9428902930940239e-15</Rotation>
+<Translation>0.28725348242033966 0.48040566516602612 0.57563261820127765</Translation>
+</Transform>
+</Instance>
+<Instance name="Base_3-1" uid="Base_3-1" entityUid="Base_3*:*Default">
+<Transform>
+<Rotation>-2.0948888033058788e-14 1 -6.9829626776862265e-15 -1.2212453270876722e-15 -6.9829626776862604e-15 -1.0000000000000002 -1.0000000000000002 -2.0948888033058772e-14 1.2212453270876722e-15</Rotation>
+<Translation>0.23175348723423578 0.50440566516600427 0.57563261820205103</Translation>
+</Transform>
+</Instance>
+<Instance name="B1_Asm-1" uid="B1_Asm-1" entityUid="B1_Asm" rigid="true">
+<Transform>
+<Rotation>-6.9274516072488238e-15 1.0000000000000002 2.1149748619109232e-14 -1 -6.9274516072488767e-15 2.3144091683675587e-15 2.314409168367705e-15 -2.1149748619109232e-14 1.0000000000000002</Rotation>
+<Translation>0.34115348242026583 0.83940566516698401 0.55913261820068005</Translation>
+</Transform>
+<Instance name="B1_3-1" uid="B1_3-1" entityUid="B1_3*:*Default">
+<Transform>
+<Rotation>0.25881904510251752 0.96592582628906909 -5.157684201622824e-15 -0.9659258262890692 0.25881904510251752 -6.1595667504589609e-16 7.399384397023849e-16 5.1413616926505049e-15 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="B1_4-1" uid="B1_4-1" entityUid="B1_4*:*Default">
+<Transform>
+<Rotation>0.90630778703664927 0.42261826174070088 4.6945339246053268e-15 -0.42261826174070094 0.90630778703664927 1.1821446199845171e-15 -3.7550967479535516e-15 -3.055382641394902e-15 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="B1_5-1" uid="B1_5-1" entityUid="B1_5*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="B1_6-1" uid="B1_6-1" entityUid="B1_6*:*Default">
+<Transform>
+<Rotation>0.90482705246601958 -0.42577929156507244 3.5945941829360819e-15 0.4257792915650726 0.90482705246601969 3.6932440864308833e-15 -4.8249929100549992e-15 -1.811243396088374e-15 1.0000000000000002</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="End-1" uid="End-1" entityUid="End*:*Default">
+<Transform>
+<Rotation>4.4045990191294005e-15 -0.9077774785329108 -0.41945208244617233 3.4856559919421155e-15 0.41945208244617233 -0.9077774785329108 1 2.5363301270227205e-15 5.0117182383125402e-15</Rotation>
+<Translation>-0.28594990573793777 0.13212740597047923 0.016500000001176796</Translation>
+</Transform>
+</Instance>
+<Instance name="Bolt-2" uid="Bolt-2" entityUid="Bolt*:*Default">
+<Transform>
+<Rotation>0.220675517076277 -0.13523910037744427 0.96592582628906709 -0.82357224171519616 0.50471919377850472 0.25881904510252463 -0.52252375911466853 -0.8526247246946782 -5.0376369742366478e-15</Rotation>
+<Translation>-0.092222533650668459 0.30554214813514624 0.0034999999979566931</Translation>
+</Transform>
+</Instance>
+<Instance name="Tourneur vis-1" uid="Tourneur vis-1" entityUid="Tourneur vis*:*Default">
+<Transform>
+<Rotation>0.96592582628906731 0.17559879877140799 -0.19013773948856436 0.25881904510252446 -0.6553436387629511 0.70960370420760366 -1.0852008568775479e-15 -0.73463581249689525 -0.67846165919455381</Rotation>
+<Translation>-0.11733660513427979 0.29881285296244542 0.0034999999995337649</Translation>
+</Transform>
+</Instance>
+<Instance name="B1_3-2" uid="B1_3-2" entityUid="B1_3*:*Default">
+<Transform>
+<Rotation>0.90630778703664983 -0.42261826174069983 5.3340606379059707e-15 0.42261826174069994 0.90630778703664994 1.4528168511215003e-15 -5.4482876249084318e-15 9.3757220950182208e-16 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="B1_1-1" uid="B1_1-1" grounded="true" entityUid="B1_1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="B1_2-1" uid="B1_2-1" entityUid="B1_2*:*Default">
+<Transform>
+<Rotation>0.64278760968653736 0.76604444311897968 -4.8362975438232457e-15 -0.76604444311897979 0.64278760968653736 -5.3227371900367971e-16 2.7009668132659733e-15 4.0469578102531062e-15 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="B1_0-1" uid="B1_0-1" entityUid="B1_0*:*Default">
+<Transform>
+<Rotation>-6.8650505587978648e-15 1.0000000000000002 2.1149748619109232e-14 -1 -6.8650505587979169e-15 2.3108502420676289e-15 2.3108502420677737e-15 -2.1149748619109232e-14 1.0000000000000002</Rotation>
+<Translation>0.34115348242026589 0.83940566516698401 0.56063261820068011</Translation>
+</Transform>
+</Instance>
+<Instance name="maxon motor 2-1" uid="maxon motor 2-1" entityUid="maxon motor 2*:*Default">
+<Transform>
+<Rotation>1 2.4978280423730493e-14 -6.9930335556326815e-15 -6.9930335556327234e-15 1.2212453270876722e-15 -1.0000000000000002 -2.4978280423730481e-14 1.0000000000000002 1.2212453270876722e-15</Rotation>
+<Translation>0.34115348723423861 0.30400566516600352 0.57563261820204648</Translation>
+</Transform>
+</Instance>
+<Instance name="coupleur2-1" uid="coupleur2-1" entityUid="coupleur2*:*Default">
+<Transform>
+<Rotation>1 5.1070259132757201e-15 -6.8105248843862331e-15 -6.8105248843862417e-15 1.2151105516954365e-15 -0.99999999999999989 -5.1070259132757201e-15 1 1.2151105516954706e-15</Rotation>
+<Translation>0.34115348720610056 0.38420566516600035 0.5756326182187268</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Pulley7-2" uid="Pulley7-2" entityUid="Pulley7*:*Default">
+<Transform>
+<Rotation>-0.54683676952484861 0.83723924149291251 -2.1173664058277973e-14 0.83723924149291251 0.54683676952484861 -2.1330700026425505e-15 9.7926481415693913e-15 -1.889386354519381e-14 -0.99999999999999978</Rotation>
+<Translation>0.68876348242068053 0.83940566516673754 0.56928261820077375</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="Barre-7" uid="Barre-7" entityUid="Barre" rigid="true">
+<Transform>
+<Rotation>0.035008541634792591 0.82841335602674426 0.55902210472316016 -0.47911326917245317 0.5048066565326117 -0.71806734699695851 -0.8770546603920929 -0.2426964175196506 0.41457637608483916</Rotation>
+<Translation>0.59621409837506623 0.93405220565480573 0.48937529233069921</Translation>
+</Transform>
+<Instance name="Barre-1" uid="Barre-1" grounded="true" entityUid="Barre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-1" uid="Part2-1" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 -0.99999999999999989 0 -1 0 0</Rotation>
+<Translation>0 -0.080000000000000071 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-2" uid="Part2-2" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 0 0.99999999999999989 0 -1 0 0</Rotation>
+<Translation>0 0.07999999999999996 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Barre-8" uid="Barre-8" entityUid="Barre" rigid="true">
+<Transform>
+<Rotation>0.035008541634792473 0.82841335602674393 0.55902210472316083 -0.47911326917245339 0.50480665653261225 -0.71806734699695807 -0.87705466039209279 -0.2426964175196511 0.41457637608483905</Rotation>
+<Translation>0.59621409837506167 0.95805220565480109 0.5309445117123569</Translation>
+</Transform>
+<Instance name="Barre-1" uid="Barre-1" grounded="true" entityUid="Barre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-1" uid="Part2-1" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 -0.99999999999999989 0 -1 0 -1.1102230246251565e-16</Rotation>
+<Translation>0 -0.080000000000000071 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-2" uid="Part2-2" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 0 0.99999999999999989 0 -1 0 1.1102230246251565e-16</Rotation>
+<Translation>0 0.080000000000000071 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Barre-9" uid="Barre-9" entityUid="Barre" rigid="true">
+<Transform>
+<Rotation>-0.015095018576339188 0.7995871658536241 0.60036031232614728 0.99982184844755062 0.018875152103312157 3.5336317205647561e-15 -0.011331892211945197 0.60025335720447737 -0.79972963893033933</Rotation>
+<Translation>0.59390800316124037 0.81389565299766131 0.69759588399947825</Translation>
+</Transform>
+<Instance name="Barre-1" uid="Barre-1" grounded="true" entityUid="Barre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-1" uid="Part2-1" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 -1 -1.1102230246251565e-16 -1 0 -1 -1.1102230246251565e-16 0</Rotation>
+<Translation>0 -0.07999999999999996 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-2" uid="Part2-2" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 1 -1.1102230246251565e-16 1 0 -1 1.1102230246251565e-16 0</Rotation>
+<Translation>0 0.080000000000000182 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Barre-10" uid="Barre-10" entityUid="Barre" rigid="true">
+<Transform>
+<Rotation>-0.019887035039729002 0.8515735742259134 0.52385776076854251 -0.48927182133936054 -0.46522392455827394 0.73768542405408988 0.8719045765911505 -0.24163846485752269 0.42590287815499245</Rotation>
+<Translation>0.59806691583101879 0.71788569456206119 0.53102914792521794</Translation>
+</Transform>
+<Instance name="Barre-1" uid="Barre-1" grounded="true" entityUid="Barre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-1" uid="Part2-1" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 -1 0 -1.0000000000000002 0 0</Rotation>
+<Translation>0 -0.080000000000000016 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-2" uid="Part2-2" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1.0000000000000002 0 0</Rotation>
+<Translation>0 0.080000000000000043 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Barre-11" uid="Barre-11" entityUid="Barre" rigid="true">
+<Transform>
+<Rotation>-0.019887035039730487 0.85157357422591251 0.52385776076854396 -0.48927182133936209 -0.46522392455827538 0.73768542405408788 0.87190457659114962 -0.24163846485752327 0.425902878154994</Rotation>
+<Translation>0.59806691583101468 0.74188569456206566 0.48945992854356651</Translation>
+</Transform>
+<Instance name="Barre-1" uid="Barre-1" grounded="true" entityUid="Barre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-1" uid="Part2-1" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 -1 0 -1.0000000000000002 0 0</Rotation>
+<Translation>0 -0.080000000000000057 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-2" uid="Part2-2" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1.0000000000000002 0 0</Rotation>
+<Translation>0 0.079999999999999988 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Barre-12" uid="Barre-12" entityUid="Barre" rigid="true">
+<Transform>
+<Rotation>-0.015095018576338715 0.7995871658536241 0.60036031232614739 0.99982184844755051 0.01887515210331215 2.7634144972310537e-15 -0.011331892211945797 0.60025335720447748 -0.79972963893033944</Rotation>
+<Translation>0.59390800316124026 0.86189565299766258 0.69759588399947925</Translation>
+</Transform>
+<Instance name="Barre-1" uid="Barre-1" grounded="true" entityUid="Barre*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-1" uid="Part2-1" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999989 0 -1 0 -1.0000000000000002 0 0</Rotation>
+<Translation>0 -0.080000000000000071 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Part2-2" uid="Part2-2" entityUid="Part2*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999989 0 1 0 -1.0000000000000002 0 0</Rotation>
+<Translation>0 0.080000000000000071 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Nacelle-2" uid="Nacelle-2" entityUid="Nacelle" rigid="true">
+<Transform>
+<Rotation>7.0256300777060687e-15 7.5372972353063748e-15 -1 -6.5609594727109885e-15 0.99999999999999989 7.5372972353353954e-15 1 6.5609594737004859e-15 7.0256300777060687e-15</Rotation>
+<Translation>0.52994102989303404 0.83638564082946909 0.56957561542290103</Translation>
+</Transform>
+<Instance name="callote-9" uid="callote-9" entityUid="callote*:*Default">
+<Transform>
+<Rotation>0.86602540378442883 0.49321670689690184 0.082080935897398261 0.50000000000001721 -0.85427639548720147 -0.14216835130709449 -1.5757168976467313e-15 0.16416187179479355 -0.98643341379376948</Rotation>
+<Translation>-0.019215390309174074 0.081282032302755325 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-10" uid="callote-10" entityUid="callote*:*Default">
+<Transform>
+<Rotation>-0.86602540378445092 0.49321670689686326 0.082080935897394611 0.49999999999997852 0.85427639548722367 0.1421683513070966 -1.5757168976466458e-15 0.16416187179479358 -0.98643341379376914</Rotation>
+<Translation>-0.060784609690826219 -0.05728203230275597 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M8-2" uid="M8-2" entityUid="M8*:*Default">
+<Transform>
+<Rotation>0.86602540378442872 0.45736656019872618 -0.20202927909588381 0.50000000000001732 -0.79218211994716736 0.34992497601056438 -1.5939425266299408e-15 -0.40405855819175091 -0.91473312039742138</Rotation>
+<Translation>-0.04000000000000048 0.069282032302754759 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M8-3" uid="M8-3" entityUid="M8*:*Default">
+<Transform>
+<Rotation>-0.86602540378445103 0.4573665601986916 -0.20202927909586552 0.49999999999997846 0.79218211994718746 -0.34992497601057493 -1.593942526629854e-15 -0.40405855819175096 -0.91473312039742138</Rotation>
+<Translation>-0.039999999999999258 -0.069282032302755647 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet_200-1" uid="Magnet_200-1" entityUid="Magnet_200*:*Default">
+<Transform>
+<Rotation>-0.86602540378443826 5.0813084606712418e-15 -0.50000000000000067 -4.3757097382759188e-15 -1 -2.5836653354746782e-15 -0.50000000000000067 0 0.86602540378443826</Rotation>
+<Translation>-0.044503005299966758 -0.00020000000000031104 0.031736602540378467</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet_200-2" uid="Magnet_200-2" entityUid="Magnet_200*:*Default">
+<Transform>
+<Rotation>7.399421272824916e-15 1 4.329406005860668e-15 -0.86602540378443815 8.572789798499698e-15 -0.50000000000000078 -0.50000000000000078 0 0.86602540378443815</Rotation>
+<Translation>0.00020000000000042206 -0.044503005299966647 0.031736602540378467</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet_200-3" uid="Magnet_200-3" entityUid="Magnet_200*:*Default">
+<Transform>
+<Rotation>0.86602540378443826 -1.2064271138307167e-14 0.50000000000000067 1.0423132810801762e-14 1 6.0751466742674739e-15 -0.50000000000000067 0 0.86602540378443826</Rotation>
+<Translation>0.044503005299966758 0.00020000000000053308 0.031736602540378467</Translation>
+</Transform>
+</Instance>
+<Instance name="Magnet_200-4" uid="Magnet_200-4" entityUid="Magnet_200*:*Default">
+<Transform>
+<Rotation>-1.344684434537978e-14 -1 -7.8208873447037201e-15 0.86602540378443815 -1.555575247618588e-14 0.50000000000000078 -0.50000000000000078 0 0.86602540378443815</Rotation>
+<Translation>-0.00020000000000075513 0.044503005299966758 0.031736602540378467</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-1" uid="Ecrou M8-1" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>-0.40548934119003927 0.91409977255290242 1.3927106638382157e-14 -5.3254197565514738e-15 1.2873546241951107e-14 -0.99999999999999978 -0.91409977255290242 -0.40548934119003927 -3.521207962739544e-16</Rotation>
+<Translation>0.080000000000000071 -0.0049999999999990052 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-2" uid="Ecrou M8-2" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>-0.40548934119003927 0.91409977255290242 1.3927106638382132e-14 -5.3254197565514674e-15 1.2873546241951098e-14 -0.99999999999999956 -0.91409977255290242 -0.40548934119003927 -3.5212079627395124e-16</Rotation>
+<Translation>0.07999999999999996 0.010000000000001008 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-3" uid="Ecrou M8-3" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>0.20274467059502591 -0.45704988627646609 0.86602540378442927 -0.35116407043438613 0.79163362462438225 0.50000000000001588 -0.91409977255290242 -0.40548934119003932 -3.5212079623039715e-16</Rotation>
+<Translation>-0.048660254037845574 0.0642820323027542 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-4" uid="Ecrou M8-4" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>0.20274467059501175 -0.45704988627643278 -0.86602540378445014 0.35116407043439418 -0.79163362462440146 0.49999999999997996 -0.91409977255290242 -0.40548934119003915 -3.6082248300317588e-16</Rotation>
+<Translation>-0.031339745962153942 -0.074282032302755874 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-5" uid="Ecrou M8-5" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>0.20274467059502591 -0.4570498862764662 0.86602540378442938 -0.35116407043438613 0.79163362462438236 0.50000000000001621 -0.91409977255290242 -0.40548934119003927 -3.6082248300317588e-16</Rotation>
+<Translation>-0.035669872981079154 0.071782032302754484 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Nacelle-1" uid="Nacelle-1" grounded="true" entityUid="Nacelle*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-3" uid="callote-3" entityUid="callote*:*Default">
+<Transform>
+<Rotation>1.5470571967820193e-14 -0.98643341379376936 -0.16416187179479355 -0.99999999999999978 -1.5522353710213813e-14 -9.6735988437805657e-16 -1.5939425266734952e-15 0.16416187179479355 -0.98643341379376936</Rotation>
+<Translation>0.079999999999999738 0.024000000000000021 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-4" uid="callote-4" entityUid="callote*:*Default">
+<Transform>
+<Rotation>1.5361055858994833e-14 -0.98643341379376936 -0.16416187179479355 -0.99999999999999978 -1.5411331407751282e-14 -9.6735988437804868e-16 -1.5757168976902853e-15 0.16416187179479355 -0.98643341379376936</Rotation>
+<Translation>0.080000000000000404 -0.024000000000000021 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Holder_200x4_60-1" uid="Holder_200x4_60-1" entityUid="Holder_200x4_60*:*Default">
+<Transform>
+<Rotation>-8.8609675142999788e-15 0 1.0000000000000002 0.99999999999999989 1.8369701990116628e-16 8.8609675162790793e-15 -1.8369701984303672e-16 1 0</Rotation>
+<Translation>0 0 0.012499999999999956</Translation>
+</Transform>
+</Instance>
+<Instance name="M8-1" uid="M8-1" entityUid="M8*:*Default">
+<Transform>
+<Rotation>1.5470571967820193e-14 -0.91473312039742138 0.40405855819175091 -0.99999999999999978 -1.3507398453122668e-14 7.7090490256238386e-15 -1.5939425266734952e-15 -0.40405855819175091 -0.91473312039742138</Rotation>
+<Translation>0.080000000000000071 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-7" uid="callote-7" entityUid="callote*:*Default">
+<Transform>
+<Rotation>0.86602540378442872 0.49321670689690195 0.082080935897398261 0.50000000000001732 -0.85427639548720136 -0.14216835130709449 -1.5939425266299396e-15 0.16416187179479355 -0.98643341379376948</Rotation>
+<Translation>-0.060784609690826663 0.057282032302754415 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-8" uid="callote-8" entityUid="callote*:*Default">
+<Transform>
+<Rotation>-0.86602540378445103 0.49321670689686331 0.082080935897394625 0.49999999999997846 0.85427639548722345 0.14216835130709651 -1.593942526629854e-15 0.16416187179479355 -0.98643341379376936</Rotation>
+<Translation>-0.019215390309172409 -0.081282032302754992 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-6" uid="Ecrou M8-6" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>0.20274467059501175 -0.45704988627643284 -0.86602540378445014 0.35116407043439418 -0.79163362462440157 0.49999999999998002 -0.91409977255290242 -0.40548934119003915 -3.6082248300317588e-16</Rotation>
+<Translation>-0.044330127018920695 -0.066782032302756145 0</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bras-4" uid="Bras-4" entityUid="Bras" rigid="true">
+<Transform>
+<Rotation>0.019127711213128513 -0.99981704859626574 2.1944260042775866e-16 -5.1525431616198779e-15 -3.180571470378737e-16 -1 0.99981704859626574 0.019127711213128513 -5.1576842018735287e-15</Rotation>
+<Translation>0.65615348242024074 0.8394056651659717 0.65563261820215724</Translation>
+</Transform>
+<Instance name="L1_-1" uid="L1_-1" grounded="true" entityUid="L1_*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M8-1" uid="M8-1" entityUid="M8*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.09000000000000008 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-1" uid="callote-1" entityUid="callote*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>0.09000000000000008 0 0.02399999999999991</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-2" uid="callote-2" entityUid="callote*:*Default">
+<Transform>
+<Rotation>0 0.69977300086265315 0.71436527579640741 0 0.71436527579640741 -0.69977300086265315 -1 0 0</Rotation>
+<Translation>0.09000000000000008 0 -0.024000000000000132</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="coupleur-1" uid="coupleur-1" entityUid="coupleur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.0050000000000000044</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-1" uid="Ecrou M8-1" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.09000000000000008 0 0.0049999999999998934</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-2" uid="Ecrou M8-2" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.089999999999999969 0 -0.01000000000000012</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bras-5" uid="Bras-5" entityUid="Bras" rigid="true">
+<Transform>
+<Rotation>0.070374271521376694 0.99752065738401419 -1.5586490431651612e-14 0.86387823009430798 -0.060945906910343677 -0.50000000000000155 -0.4987603286920097 0.035187135760674997 -0.86602540378443782</Rotation>
+<Translation>0.65615348242032034 0.90868769746892963 0.53563261820211849</Translation>
+</Transform>
+<Instance name="L1_-1" uid="L1_-1" grounded="true" entityUid="L1_*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M8-1" uid="M8-1" entityUid="M8*:*Default">
+<Transform>
+<Rotation>-2.2204460492503131e-16 0 1 0 1.0000000000000002 0 -1 0 2.2204460492503131e-16</Rotation>
+<Translation>0.09000000000000008 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-1" uid="callote-1" entityUid="callote*:*Default">
+<Transform>
+<Rotation>-2.2204460492503131e-16 0 1 0 1.0000000000000002 0 -1 0 2.2204460492503131e-16</Rotation>
+<Translation>0.089999999999999969 0 0.024000000000000021</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-2" uid="callote-2" entityUid="callote*:*Default">
+<Transform>
+<Rotation>-2.2204460492503131e-16 0.69977300086265315 0.71436527579640752 0 0.71436527579640752 -0.69977300086265315 -1 -1.4794546222767143e-16 -1.6590443135108144e-16</Rotation>
+<Translation>0.09000000000000008 0 -0.024000000000000021</Translation>
+</Transform>
+</Instance>
+<Instance name="coupleur-1" uid="coupleur-1" entityUid="coupleur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.0050000000000001155</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-1" uid="Ecrou M8-1" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.089999999999999858 0 0.0050000000000000044</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-2" uid="Ecrou M8-2" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.09000000000000008 0 -0.010000000000000009</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Bras-6" uid="Bras-6" entityUid="Bras" rigid="true">
+<Transform>
+<Rotation>0.11154799276397583 -0.99375904791369218 -2.0289325775024736e-14 -0.86062058073389081 -0.096603395474775589 0.50000000000000455 -0.49687952395685259 -0.055773996381970961 -0.86602540378443593</Rotation>
+<Translation>0.65615348242037297 0.77012363286341756 0.53563261820188834</Translation>
+</Transform>
+<Instance name="L1_-1" uid="L1_-1" grounded="true" entityUid="L1_*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="M8-1" uid="M8-1" entityUid="M8*:*Default">
+<Transform>
+<Rotation>0 0 1 0 0.99999999999999989 0 -0.99999999999999989 0 0</Rotation>
+<Translation>0.09000000000000008 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-1" uid="callote-1" entityUid="callote*:*Default">
+<Transform>
+<Rotation>0 0 1 0 0.99999999999999989 0 -0.99999999999999989 0 0</Rotation>
+<Translation>0.089999999999999969 0 0.024000000000000021</Translation>
+</Transform>
+</Instance>
+<Instance name="callote-2" uid="callote-2" entityUid="callote*:*Default">
+<Transform>
+<Rotation>0 0.69977300086265315 0.71436527579640718 0 0.71436527579640741 -0.69977300086265315 -0.99999999999999989 0 0</Rotation>
+<Translation>0.089999999999999858 0 -0.023999999999999966</Translation>
+</Transform>
+</Instance>
+<Instance name="coupleur-1" uid="coupleur-1" entityUid="coupleur*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0.0050000000000000044</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-1" uid="Ecrou M8-1" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.09000000000000008 0 0.0050000000000000044</Translation>
+</Transform>
+</Instance>
+<Instance name="Ecrou M8-2" uid="Ecrou M8-2" entityUid="Ecrou M8*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.089999999999999969 0 -0.010000000000000009</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Guide-4" uid="Guide-4" entityUid="Guide" rigid="true">
+<Transform>
+<Rotation>2.1149748619109226e-14 1.0000000000000002 -2.7495367094232343e-16 2.3144091683675587e-15 2.7495367094242786e-16 1.0000000000000002 1 -2.1149748619109223e-14 -2.3144091683675461e-15</Rotation>
+<Translation>0.65615348242053828 0.83940566516687687 0.57563261820067357</Translation>
+</Transform>
+<Instance name="Boulon-8" uid="Boulon-8" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.038999999999999924 -0.02628326582976348 0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-1" uid="Boulon Bouchan-1" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>0.99986265403983443 -0.016573263300221339 0 0.0016886179407098023 0.10187408389480145 -0.99479586830668199 0.016487013855418953 0.99465923711298054 0.10188807781067778</Rotation>
+<Translation>-0.025000000000000022 -0.040452229200855783 -0.028119482122042405</Translation>
+</Transform>
+</Instance>
+<Instance name="Guide-1" uid="Guide-1" grounded="true" entityUid="Guide*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon-1" uid="Boulon-1" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.038999999999999924 -0.02628326582976348 -0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon-2" uid="Boulon-2" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.10188807781067805 -0.9947958683066821 0 0.9947958683066821 0.10188807781067805</Rotation>
+<Translation>-0.024999999999999911 0.037157737380565381 -0.036068379544979989</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon-3" uid="Boulon-3" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.10188807781067803 -0.99479586830668187 0 0.99479586830668187 -0.10188807781067803</Rotation>
+<Translation>-0.025000000000000022 0.037157737380565381 0.0360683795449801</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon-4" uid="Boulon-4" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.038999999999999924 0.020267974328044613 0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon-5" uid="Boulon-5" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.10188807781067803 -0.99479586830668187 0 0.99479586830668187 -0.10188807781067803</Rotation>
+<Translation>0.025000000000000022 0.037157737380565381 0.036068379544979989</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon-6" uid="Boulon-6" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.10188807781067805 -0.9947958683066821 0 0.9947958683066821 0.10188807781067805</Rotation>
+<Translation>0.025000000000000133 0.037157737380565381 -0.0360683795449801</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon-7" uid="Boulon-7" entityUid="Boulon*:*Default">
+<Transform>
+<Rotation>0 0 1 0.039853747035698439 0.9992055238274129 0 -0.9992055238274129 0.039853747035698439 0</Rotation>
+<Translation>-0.038999999999999924 0.020267974328044613 -0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-2" uid="Boulon Bouchan-2" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.10188807781067789 0.99479586830668187 0 -0.99479586830668187 0.10188807781067789</Rotation>
+<Translation>0.025000000000000022 -0.045470398476244123 0.027605515751767618</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-3" uid="Boulon Bouchan-3" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>0.64175105988419434 0.76691301797368994 6.9388939039072284e-16 -0.078139293249325212 0.065386781924566775 -0.99479586830668199 -0.76292190163083484 0.63841130285423053 0.10188807781067857</Rotation>
+<Translation>0.024999999999999134 -0.04044341985620592 -0.028120384384731967</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-4" uid="Boulon Bouchan-4" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>0.9997327797982285 0.023116422666725429 0 -0.0023552878713718386 0.10186085125796725 0.99479586830668187 0.022996121758889387 -0.99453003875403156 0.10188807781067792</Rotation>
+<Translation>-0.025000000000000022 -0.045426556561802833 0.027610006088461203</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-5" uid="Boulon Bouchan-5" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.044000000000000039 0.020267974328044613 -0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-6" uid="Boulon Bouchan-6" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.044000000000000039 -0.02628326582976348 -0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-7" uid="Boulon Bouchan-7" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.044000000000000039 0.020267974328044613 0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-8" uid="Boulon Bouchan-8" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.044000000000000039 -0.02628326582976348 0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-1" uid="Roue-1" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.010500000000000065 0.020267974328044502 0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-2" uid="Roue-2" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.016499999999999959 0.020267974328044502 0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-3" uid="Roue-3" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.016499999999999959 0.020267974328044502 -0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-4" uid="Roue-4" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.010500000000000065 -0.02628326582976348 -0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-5" uid="Roue-5" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.016499999999999959 -0.02628326582976348 -0.040185786169652848</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-6" uid="Roue-6" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.010500000000000065 0.020267974328044613 -0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-7" uid="Roue-7" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99526882159057561 0.09715952228015233 0 -0.09715952228015233 0.99526882159057561</Rotation>
+<Translation>-0.016499999999999959 -0.026283265829763591 0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-8" uid="Roue-8" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99555448626992915 0.094187392297575112 0 -0.094187392297575112 0.99555448626992915</Rotation>
+<Translation>0.010500000000000065 -0.02628326582976348 0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-9" uid="Roue-9" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>0 0.81300891746047887 0.582251234545484 0.99479586830668187 -0.059324459090733618 0.08283591584298837 0.10188807781067802 0.57922112244231228 -0.80877791198617255</Rotation>
+<Translation>-0.024999999999999911 -0.015566443639688732 0.030668311421014227</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-10" uid="Roue-10" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>0 0.81300891746047899 0.58225123454548389 0.99479586830668187 -0.059324459090733611 0.082835915842988384 0.10188807781067802 0.57922112244231216 -0.80877791198617266</Rotation>
+<Translation>0.025000000000000022 -0.005618484956621872 0.031687192199120862</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-11" uid="Roue-11" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>0 0.86124824615715156 0.50818447289466684 0.99479586830668187 0.051777939116470224 -0.087750928318769836 -0.10188807781067802 0.50553981397322367 -0.85676619686351052</Rotation>
+<Translation>0.025000000000000133 -0.010592464298155302 -0.031177751810067544</Translation>
+</Transform>
+</Instance>
+<Instance name="Roue-12" uid="Roue-12" entityUid="Roue*:*Default">
+<Transform>
+<Rotation>0 0.72459852254688928 -0.68917122772418837 0.99479586830668187 -0.070218331675242579 -0.073827950646759816 -0.10188807781067802 -0.68558468989586607 -0.72082761641077153</Rotation>
+<Translation>-0.024999999999999911 -0.010592464298155302 -0.031177751810067433</Translation>
+</Transform>
+</Instance>
+<Instance name="maxon motor-3" uid="maxon motor-3" entityUid="maxon motor*:*Default">
+<Transform>
+<Rotation>-0.50000000000000033 0 -0.86602540378443837 0 -1 0 -0.86602540378443837 0 0.50000000000000033</Rotation>
+<Translation>-0.093260562332742991 0 -0.038532032302755148</Translation>
+</Transform>
+</Instance>
+<Instance name="maxon motor-4" uid="maxon motor-4" entityUid="maxon motor*:*Default">
+<Transform>
+<Rotation>0 0 -0.99999999999999978 -0.70710678118654857 0.70710678118654635 0 0.70710678118654635 0.70710678118654857 0</Rotation>
+<Translation>-0.062499999999999889 0.032610000000000028 0</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-9" uid="Boulon Bouchan-9" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.010500000000000065 0.020267974328044613 -0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-10" uid="Boulon Bouchan-10" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.022064306166884e-16 0 -1.0000000000000002 -0.55088851711689835 0.83457884091842693 0 0.83457884091842693 0.55088851711689835 1.2246467991474274e-16</Rotation>
+<Translation>0.021499999999999964 0.020267974328044613 -0.04666514105807007</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-11" uid="Boulon Bouchan-11" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.61877207756594366 0.78557056718332208 0 0.78557056718332208 -0.61877207756594366 1.2246467991473357e-16</Rotation>
+<Translation>-0.016499999999999959 0.020267974328044502 -0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-12" uid="Boulon Bouchan-12" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>-0.0054999999999999494 0.020267974328044502 -0.046665141058070181</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-13" uid="Boulon Bouchan-13" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.2227628563821422e-16 0 -1 -0.055446780641671099 0.99846164398862836 0 0.99846164398862836 0.055446780641671099 1.224646799147424e-16</Rotation>
+<Translation>0.021500000000000075 -0.02628326582976348 -0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-14" uid="Boulon Bouchan-14" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.010500000000000065 -0.02628326582976348 -0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-15" uid="Boulon Bouchan-15" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.021499999999999964 -0.02628326582976348 0.040185786169652848</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-16" uid="Boulon Bouchan-16" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>-0.0054999999999999494 -0.02628326582976348 -0.040185786169652848</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-17" uid="Boulon Bouchan-17" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>-0.0054999999999999494 -0.026283265829763591 0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-18" uid="Boulon Bouchan-18" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>-0.016499999999999959 -0.02628326582976348 -0.040185786169652848</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-19" uid="Boulon Bouchan-19" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>0.010500000000000065 -0.02628326582976348 0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-20" uid="Boulon Bouchan-20" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1.224646799147422e-16 0 -1 0 1 0 1 0 1.224646799147422e-16</Rotation>
+<Translation>-0.016499999999999959 -0.026283265829763591 0.040185786169652737</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-21" uid="Boulon Bouchan-21" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>0.99707805404821725 -0.076389489692105642 0 0.0077831782696672347 0.1015903663541841 -0.99479586830668199 0.075991948727762548 0.99188912854643307 0.10188807781067794</Rotation>
+<Translation>-0.024999999999999911 -0.010592464298155302 -0.031177751810067433</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-22" uid="Boulon Bouchan-22" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>0.86086699186149196 0.50883005249625923 0 0.051843715981150278 -0.087712083051428191 0.99479586830668176 0.50618203389355065 -0.85638692666541405 -0.10188807781067818</Rotation>
+<Translation>-0.024999999999999911 -0.0046236890883152304 -0.031789080276931503</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-23" uid="Boulon Bouchan-23" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.10188807781067791 0.99479586830668187 0 -0.99479586830668187 -0.10188807781067791</Rotation>
+<Translation>0.025000000000000022 -0.015566443639688621 -0.030668311421014227</Translation>
+</Transform>
+</Instance>
+<Instance name="Boulon Bouchan-24" uid="Boulon Bouchan-24" entityUid="Boulon Bouchan*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -0.10188807781067791 0.99479586830668187 0 -0.99479586830668187 -0.10188807781067791</Rotation>
+<Translation>0.025000000000000022 -0.0046236890883151194 -0.031789080276931614</Translation>
+</Transform>
+</Instance>
+<Instance name="maxon motor-5" uid="maxon motor-5" entityUid="maxon motor*:*Default">
+<Transform>
+<Rotation>1 -1.1102230246250939e-16 0 -1.1102230246250934e-16 -1 0 0 0 -1</Rotation>
+<Translation>0.080000000000012284 0 -0.061499999999999999</Translation>
+</Transform>
+</Instance>
+<Instance name="maxon motor-6" uid="maxon motor-6" entityUid="maxon motor*:*Default">
+<Transform>
+<Rotation>-0.50000000000000011 -2.4888389399700073e-15 -0.86602540378443849 -5.0190966326950846e-15 1 0 0.86602540378443849 4.3586217519891959e-15 -0.50000000000000011</Rotation>
+<Translation>-0.09326056233274288 0 0.038532032302755148</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support-1</Uid>
+</InstancePath>
+<Position>-0.072650000000000103 0.024999999999999994 0.55000000000000004</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>-0.060000000000000053 -0.055500000000000022 0.1130000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>support-1</Uid>
+</InstancePath>
+<Position>-0.047650000000000081 0.042111984104714451 0.36299999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>0.04764999999999997 -0.11950000000000004 0.024000000000000132</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Palier3-2</Uid>
+</InstancePath>
+<Position>-0.047650000000000081 0.015000000000000013 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>0.04764999999999997 -0.11950000000000004 0.024000000000000132</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Palier3-2</Uid>
+</InstancePath>
+<Position>0.04764999999999997 0.015000000000000013 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>-0.04764999999999997 -0.11950000000000004 0.024000000000000132</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Palier3-2</Uid>
+</InstancePath>
+<Position>0 0.053899999999999948 -0.0070000000000000062</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_1-1</Uid>
+</InstancePath>
+<Position>0.45099999999999996 0 0.01650000000000007</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Palier3-2</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.053899999999999948 0.019000000000000017</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_1-1</Uid>
+</InstancePath>
+<Position>0.33999999999999991 0 0.016499999999999959</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_1-1</Uid>
+</InstancePath>
+<Position>0.45099999999999996 0 0.01650000000000007</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>B1_0-1</Uid>
+</InstancePath>
+<Position>0.45519999999999999 0 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_1-1</Uid>
+</InstancePath>
+<Position>0.40919999999999995 0.008499999999999952 0.025000000000000133</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_0-1</Uid>
+</InstancePath>
+<Position>0.41020000000000006 -0.0086999999999999855 0.0062999999999999723</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_1-1</Uid>
+</InstancePath>
+<Position>0.38919999999999993 0 0.01650000000000007</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_0-1</Uid>
+</InstancePath>
+<Position>0.38919999999999999 0 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric14">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>0 0.10940000000000003 0.13750000000000023</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>maxon motor 2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.015450000000000019</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>0 0.12490000000000004 0.13750000000000018</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>maxon motor 2-1</Uid>
+</InstancePath>
+<Position>0.015499999999999958 0 -0.050900000000000001</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000022 0.055499999999999966 0.14750000000000019</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>maxon motor 2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.052900000000000003</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>support-1</Uid>
+</InstancePath>
+<Position>0.047649999999999859 0.042111984104714478 0.36299999999999999</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>-0.04764999999999997 -0.11950000000000004 0.024000000000000132</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>maxon motor 2-1</Uid>
+</InstancePath>
+<Position>0 0 -0.073900000000000077</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>coupleur2-1</Uid>
+</InstancePath>
+<Position>0 0 0.0060000000000000053</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>B1_0-1</Uid>
+</InstancePath>
+<Position>0.44619999999999999 0.01555635400000005 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>coupleur2-1</Uid>
+</InstancePath>
+<Position>0.015556349186104046 0 0</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_0-1</Uid>
+</InstancePath>
+<Position>0.45519999999999999 0 0.015000000000000013</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>coupleur2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-10</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>-0.002913527359105883 -0.014000000000000012 0.0044999999999999485</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-11</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>-0.002913527359105883 -0.013999999999999929 0.004500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-7</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>-0.0029135273591059663 -0.014000000000000123 0.0045000000000000595</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-8</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>-0.0029135273591058553 -0.014000000000000123 0.0044999999999999485</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-9</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>-0.0029135273591058275 -0.014000000000000123 -0.0045000000000000595</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-12</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>-0.002913527359105772 -0.014000000000000012 -0.0044999999999998375</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident27">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-7</Uid>
+<Uid>Barre-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999998934 -0.0032159622259362031</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-8</Uid>
+<Uid>Barre-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.0049999999999998934 -0.0032159622259362031</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-9</Uid>
+<Uid>Barre-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0.0050000000000000044 -0.0032159622259360643</Position>
+<Axis>0 -1.1102230246251565e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-12</Uid>
+<Uid>Barre-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000001155 -0.0032159622259360643</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-10</Uid>
+<Uid>Barre-1</Uid>
+</InstancePath>
+<Position>0 0.0050000000000000877 -0.0032159622259362308</Position>
+<Axis>0 -1.2490009027033011e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Barre-11</Uid>
+<Uid>Barre-1</Uid>
+</InstancePath>
+<Position>0 0.0049999999999999489 -0.0032159622259362308</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-9</Uid>
+<Uid>Part2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nacelle-2</Uid>
+<Uid>callote-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-12</Uid>
+<Uid>Part2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nacelle-2</Uid>
+<Uid>callote-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-10</Uid>
+<Uid>Part2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nacelle-2</Uid>
+<Uid>callote-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-11</Uid>
+<Uid>Part2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nacelle-2</Uid>
+<Uid>callote-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric44">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-7</Uid>
+<Uid>Part2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nacelle-2</Uid>
+<Uid>callote-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>support-1</Uid>
+</InstancePath>
+<Position>-0.37999999999999995 0 0.049999999999999989</Position>
+<Axis>-1 -2.0004018461714367e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_3-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric62">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-8</Uid>
+<Uid>Part2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nacelle-2</Uid>
+<Uid>callote-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric68">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-7</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Bras-5</Uid>
+<Uid>callote-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric69">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-11</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Bras-6</Uid>
+<Uid>callote-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric70">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-12</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Bras-4</Uid>
+<Uid>callote-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric71">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-8</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Bras-5</Uid>
+<Uid>callote-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric72">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Barre-9</Uid>
+<Uid>Part2-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Bras-4</Uid>
+<Uid>callote-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_3-1</Uid>
+</InstancePath>
+<Position>0 -1.1102230246251565e-16 0.01650000000000007</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>Guide-1</Uid>
+</InstancePath>
+<Position>0 -0.31500000000000006 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric88">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_5-1</Uid>
+</InstancePath>
+<Position>-0.011132939448098012 0.31880567381909153 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>Guide-1</Uid>
+</InstancePath>
+<Position>0.050000000000000044 0.0038056738190916928 0.011132939448095569</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric89">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bras-4</Uid>
+<Uid>coupleur-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050799999999999734</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>maxon motor-5</Uid>
+</InstancePath>
+<Position>0 0 -0.056499999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident37">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bras-4</Uid>
+<Uid>L1_-1</Uid>
+</InstancePath>
+<Position>0.038259093705557135 0.006360376813636881 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>maxon motor-5</Uid>
+</InstancePath>
+<Position>0 0 -0.056499999999999995</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric90">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bras-5</Uid>
+<Uid>L1_-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0050000000000001155</Position>
+<Axis>2.2204460492503131e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>maxon motor-6</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.056499999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bras-5</Uid>
+<Uid>L1_-1</Uid>
+</InstancePath>
+<Position>0.038259093705557135 0.006360376813636992 0.0050000000000000044</Position>
+<Axis>2.2204460492503131e-16 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>maxon motor-6</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.056499999999999995</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric91">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Bras-6</Uid>
+<Uid>coupleur-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 0.0050800000000000289</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>maxon motor-3</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.056499999999999995</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident39">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Bras-6</Uid>
+<Uid>L1_-1</Uid>
+</InstancePath>
+<Position>0.038259093705557135 0.006360376813636881 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>maxon motor-3</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 0 -0.056499999999999995</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric92">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Pulley7-2</Uid>
+</InstancePath>
+<Position>1.1102230246251565e-16 -2.2204460492503131e-16 0.0099749999999999561</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Guide-4</Uid>
+<Uid>maxon motor-4</Uid>
+</InstancePath>
+<Position>0 0 -0.056499999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident40">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_Asm-1</Uid>
+<Uid>B1_5-1</Uid>
+</InstancePath>
+<Position>0 0 0.01650000000000007</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Pulley7-2</Uid>
+</InstancePath>
+<Position>0 -2.2204460492503131e-16 -0.0063499999999999668</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric93">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Palier3-1</Uid>
+</InstancePath>
+<Position>0 0.053900000000000003 -0.0070000000000000062</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>B1_0-1</Uid>
+</InstancePath>
+<Position>0.45519999999999999 0 0.015000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Palier3-1</Uid>
+</InstancePath>
+<Position>0 0.053899999999999948 0.019000000000000017</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>B1_0-1</Uid>
+</InstancePath>
+<Position>0.39419999999999999 0 0.015000000000000013</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Palier3-1</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-16 0 -0.024000000000000021</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="line">
+<InstancePath>
+<Uid>Base_3-1</Uid>
+</InstancePath>
+<Position>-0.060000000000000053 0.055500000000000022 0.1130000000000001</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="B1_Asm" uid="B1_Asm" version="482">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="B1_Asm.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Barre" uid="Barre" version="164">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Barre.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Nacelle" uid="Nacelle" version="1817">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Nacelle.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Bras" uid="Bras" version="135">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Bras.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Guide" uid="Guide" version="549">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="Guide.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="B1_0" uid="B1_0*:*Default" version="3133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B1_0.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.087370960230607211</Mass>
+<CenterOfMass>0.41920961123494427 0 0.014999999999999994</CenterOfMass>
+<Inertia>2.5672224942435901e-05 4.4009367523504304e-05 4.4009367523504304e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="B1_0_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="B1_1" uid="B1_1*:*Default" version="2869">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B1_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.13594740580634465</Mass>
+<CenterOfMass>0.34695518521787516 0.00075119808525388372 0.016500001161758072</CenterOfMass>
+<Inertia>3.9975235758575432e-05 0.00012152447876450281 0.00012258658073511158 -2.4965929048606034e-12 4.1493301435583432e-12 1.5783777741915885e-06</Inertia>
+</MassProperties>
+<GeometryFile name="B1_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="B1_2" uid="B1_2*:*Default" version="3164">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B1_2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10490110691246569</Mass>
+<CenterOfMass>-0.0075324707340271657 0.31115558336876653 0.01649999993567906</CenterOfMass>
+<Inertia>1.9294830415776479e-05 0.00019472444475209872 0.00019335640533912763 -1.7488318753734271e-10 -2.0147305028586697e-10 -3.6561017457932581e-06</Inertia>
+</MassProperties>
+<GeometryFile name="B1_2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="B1_3" uid="B1_3*:*Default" version="3169">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B1_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10490110691246569</Mass>
+<CenterOfMass>-0.0075324707340271657 0.31115558336876653 0.01649999993567906</CenterOfMass>
+<Inertia>1.9294830415776479e-05 0.00019472444475209872 0.00019335640533912763 -1.7488318753734271e-10 -2.0147305028586697e-10 -3.6561017457932581e-06</Inertia>
+</MassProperties>
+<GeometryFile name="B1_3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="B1_4" uid="B1_4*:*Default" version="3163">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B1_4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10490110691246569</Mass>
+<CenterOfMass>-0.0075324707340271657 0.31115558336876653 0.01649999993567906</CenterOfMass>
+<Inertia>1.9294830415776479e-05 0.00019472444475209872 0.00019335640533912763 -1.7488318753734271e-10 -2.0147305028586697e-10 -3.6561017457932581e-06</Inertia>
+</MassProperties>
+<GeometryFile name="B1_4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="B1_5" uid="B1_5*:*Default" version="3174">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B1_5.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10419826554754076</Mass>
+<CenterOfMass>-0.0075126314049941863 0.31110132357081199 0.016492999767660586</CenterOfMass>
+<Inertia>1.9154074175815582e-05 0.00019461914991272583 0.00019329647082136765 6.0266881275479936e-09 4.4685538198119867e-09 -3.672736043335882e-06</Inertia>
+</MassProperties>
+<GeometryFile name="B1_5_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="B1_6" uid="B1_6*:*Default" version="3809">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="B1_6.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.097828179408311705</Mass>
+<CenterOfMass>-0.1371810077504447 0.27945163190377253 0.016472401308044279</CenterOfMass>
+<Inertia>5.087256206402859e-05 0.00015351865775737112 0.00018395022015545064 -4.0842500288872186e-08 -1.1857736892688333e-07 -6.5513926029203847e-05</Inertia>
+</MassProperties>
+<GeometryFile name="B1_6_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Barre" uid="Barre*:*Default" version="194">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Barre.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0072128320702772551</Mass>
+<CenterOfMass>0 0 1.2437977792965974e-05</CenterOfMass>
+<Inertia>1.2536082712927985e-05 5.7557283831224207e-08 1.2536372342541112e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Barre_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base_3" uid="Base_3*:*Default" version="922">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base_3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.69195712950342281</Mass>
+<CenterOfMass>0 0.0068240498591338947 0.065078857271206159</CenterOfMass>
+<Inertia>0.0024222006530698176 0.0015346169197097486 0.001694195497356167 -0.00032655837413518069 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bolt" uid="Bolt*:*Default" version="130">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Bolt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00027422346502553873</Mass>
+<CenterOfMass>0 0 0.0074009094557688938</CenterOfMass>
+<Inertia>2.2597192400639598e-08 2.2597192400639598e-08 6.882563484063762e-10 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Bolt_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Boulon Bouchan" uid="Boulon Bouchan*:*Default" version="113">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Boulon Bouchan.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00029164103248067883</Mass>
+<CenterOfMass>0 0 0.0025000000000000001</CenterOfMass>
+<Inertia>3.2965318801880852e-09 3.2965318801880836e-09 5.3778927917066739e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Boulon Bouchan_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Boulon" uid="Boulon*:*Default" version="189">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Boulon.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0028132962212896605</Mass>
+<CenterOfMass>0 0 0.037909547738693462</CenterOfMass>
+<Inertia>2.1741374825450694e-06 2.1741374825450694e-06 2.1009597220422608e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Boulon_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Ecrou M8" uid="Ecrou M8*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Ecrou M8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00048046405391066781</Mass>
+<CenterOfMass>0 0 0.0024999999999999996</CenterOfMass>
+<Inertia>8.5840430872927272e-09 8.5840430872927189e-09 1.5166152616624332e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Ecrou M8_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="End" uid="End*:*Default" version="204">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="End.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011307589558862503</Mass>
+<CenterOfMass>0 -4.2719209421370723e-05 0.0035787784854406112</CenterOfMass>
+<Inertia>1.7408956770688939e-06 1.0886648947466199e-06 2.6855138393353398e-06 2.0347159447396823e-10 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="End_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Guide" uid="Guide*:*Default" version="5361">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Guide.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21129975448435681</Mass>
+<CenterOfMass>-0.0015464427602296452 0.00027507332758195172 -0.0016892168653331562</CenterOfMass>
+<Inertia>0.00038764467283763574 0.00052593527360651781 0.00044085248041539148 -8.5862786656888315e-08 2.2140025824948921e-05 -2.6279583167103323e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Guide_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Holder_200x4_60" uid="Holder_200x4_60*:*Default" version="478">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Holder_200x4_60.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.19418988907674839</Mass>
+<CenterOfMass>0 0.017704850447265958 0</CenterOfMass>
+<Inertia>0.00023215385018482841 0.00037181246625548204 0.00023215385018482805 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Holder_200x4_60_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.42745098039215684" g="0.44705882352941173" b="0.42745098039215684" a="1"/>
+<Diffuse r="0.42745098039215684" g="0.44705882352941173" b="0.42745098039215684" a="1"/>
+<Specular r="0.21372549019607842" g="0.22352941176470587" b="0.21372549019607842" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="L1_" uid="L1_*:*Default" version="222">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="L1_.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015390605516841769</Mass>
+<CenterOfMass>0.031825855173465811 2.2128071143136399e-09 0</CenterOfMass>
+<Inertia>5.7883577163735748e-07 1.4232329255449382e-05 1.4554643350324237e-05 -9.5124939572469825e-12 0 -3.3938781544583223e-13</Inertia>
+</MassProperties>
+<GeometryFile name="L1__Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="M8" uid="M8*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="M8.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.002793975426470083</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>2.0706850379426404e-08 8.4854605313073793e-07 8.4854605313073793e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="M8_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Magnet_200" uid="Magnet_200*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Magnet_200.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.027000000000000003</Mass>
+<CenterOfMass>0 0 0.0074999999999999997</CenterOfMass>
+<Inertia>2.5312500000000001e-06 8.6062500000000008e-06 1.0125000000000002e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Magnet_200_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6588235294117647" g="0.61960784313725492" b="0.55686274509803924" a="1"/>
+<Diffuse r="0.6588235294117647" g="0.61960784313725492" b="0.55686274509803924" a="1"/>
+<Specular r="0.32941176470588235" g="0.30980392156862746" b="0.27843137254901962" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nacelle" uid="Nacelle*:*Default" version="788">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nacelle.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.075011499477615665</Mass>
+<CenterOfMass>-1.4882955972399903e-06 1.4142988289895476e-07 -1.725938139433561e-05</CenterOfMass>
+<Inertia>7.1361077167350685e-05 7.1350748254521629e-05 0.00014219978022296452 6.8036027958861115e-12 2.4249215295260077e-11 -4.9958665995451576e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Nacelle_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Palier3" uid="Palier3*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Palier3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.29348078193166194</Mass>
+<CenterOfMass>4.8927161641541822e-08 0.041382292647647263 -0.00091933283700829495</CenterOfMass>
+<Inertia>0.00032096636172142289 0.00039641910503311205 0.00063133759921982712 3.3765268894753153e-06 -4.0752612515690499e-11 -6.1369031631793527e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Palier3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Part2" uid="Part2*:*Default" version="362">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Part2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0026392780844172931</Mass>
+<CenterOfMass>-3.2523866655493452e-09 -0.00022473476615978287 -1.0183553234144845e-09</CenterOfMass>
+<Inertia>1.6011718564274746e-07 1.4869517088679847e-07 2.6971496658796068e-07 6.0002700575496904e-14 -8.1106331559677064e-14 4.5361818914579786e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Part2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Diffuse r="0.0078431372549019607" g="0.23921568627450979" b="0.82352941176470584" a="1"/>
+<Specular r="0.0039215686274509803" g="0.11960784313725489" b="0.41176470588235292" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Pulley7" uid="Pulley7*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Pulley7.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.019268615099241559</Mass>
+<CenterOfMass>-2.4569126562516462e-06 -2.4571833756350561e-06 -0.0028457042527471393</CenterOfMass>
+<Inertia>2.2239307483701243e-06 2.2239307483953536e-06 2.9766072066545169e-06 3.4791114435375824e-10 3.4788783483951228e-10 1.1632626598101301e-13</Inertia>
+</MassProperties>
+<GeometryFile name="Pulley7_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Roue" uid="Roue*:*Default" version="132">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Roue.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0011922344120373267</Mass>
+<CenterOfMass>0.0030000000000000005 0 0</CenterOfMass>
+<Inertia>4.8434522989016411e-08 2.7793964730620189e-08 2.7793964730620186e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Roue_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Tourneur vis" uid="Tourneur vis*:*Default" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Tourneur vis.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00069577247681070669</Mass>
+<CenterOfMass>0.0036218635347609728 0.027435050537786328 0</CenterOfMass>
+<Inertia>3.6798652453414087e-07 1.7744495023998381e-08 3.8484627145142063e-07 0 0 4.05033046780688e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Tourneur vis_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="callote" uid="callote*:*Default" version="138">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="callote.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0010649999095669401</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>3.4254591117865306e-08 2.5564356789413406e-08 2.5564356789413406e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="callote_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="coupleur" uid="coupleur*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="coupleur.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0025536028979367843</Mass>
+<CenterOfMass>3.6615699462296576e-10 -5.2685747925139927e-05 0.0031815993062002629</CenterOfMass>
+<Inertia>1.0816900705421648e-07 1.0936295281528525e-07 1.9401136579891081e-07 -8.6343954242865582e-11 9.6022950035541075e-16 -8.9510533933104567e-15</Inertia>
+</MassProperties>
+<GeometryFile name="coupleur_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="coupleur2" uid="coupleur2*:*Default" version="176">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="coupleur2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0088701111501156109</Mass>
+<CenterOfMass>1.401031751787188e-10 -1.4578626523703565e-05 0.0048048876962206452</CenterOfMass>
+<Inertia>8.6951443571049108e-07 8.7076089367093989e-07 1.5099568902069624e-06 -2.3339066390045892e-10 1.2639429918860858e-15 -1.2011891909007969e-14</Inertia>
+</MassProperties>
+<GeometryFile name="coupleur2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="maxon motor 2" uid="maxon motor 2*:*Default" version="431">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="maxon motor 2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.11489622965025099</Mass>
+<CenterOfMass>0 -3.9725500356173312e-06 0.0049121817199218728</CenterOfMass>
+<Inertia>0.00017760225940456164 0.00017760351531788805 1.6041597871752558e-05 -3.186444539388415e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="maxon motor 2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="maxon motor" uid="maxon motor*:*Default" version="232">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="maxon motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.037896902625758566</Mass>
+<CenterOfMass>0 -1.5242551351086347e-06 0.0038373118104969854</CenterOfMass>
+<Inertia>2.7892154109154115e-05 2.7891863913926038e-05 2.5380042325624114e-06 -2.9365943602313625e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="maxon motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="support" uid="support*:*Default" version="250">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="support.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>9.5520019709794077</Mass>
+<CenterOfMass>0 0.1082037569862466 0.096236491174573557</CenterOfMass>
+<Inertia>0.4755045430924752 0.7944288706899314 0.88600676225850339 0.073627365909620407 0 -1.4034108775568032e-15</Inertia>
+</MassProperties>
+<GeometryFile name="support_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
