@@ -12,7 +12,7 @@ manipulator that fulfil all the required specifications showing the rational beh
 
 In the next step, we established the different necessary models (Geometric, Kinematic, and Dynamic models) to demonstrate the system state model and control it as well. Hence, the last chapter was dedicated for tuning a control law, explaining the rational point behind the strategy that allowed us to introduce, in a straightforward manner, controllers like PI and Loop-shaping.
 
-![alt text](![image](https://user-images.githubusercontent.com/45684110/173240726-e20793f6-6904-46c2-b2c4-db221a365644.png)
+![alt text](https://user-images.githubusercontent.com/45684110/173240726-e20793f6-6904-46c2-b2c4-db221a365644.png)
 )
 
 As for simulation, the structure designed using Solidworks was exported to SimMechanics environment, then used to validate the different models and the tuned control law.
