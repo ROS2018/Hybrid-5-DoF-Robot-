@@ -5,6 +5,8 @@ Hearing loss is a common chronic condition among older adults especially the sen
 In this context my work comes to develop a novel robotic platform and control it via a computer. We proceeded, at first, to study the effective specifications needed for the robotic platform (especially the work space, the required degrees of
 freedom, and the compactness).
 
+![alt text](https://github.com/ROS2018/Hybrid-5-DoF-Robot-/blob/main/Design5DOFRobot.png?raw=true)
+
 Then, after analyzing the preliminary works done before in the project and discovering some other relevant medical mechanisms, we developed a novel robot
 manipulator that fulfil all the required specifications showing the rational behind the choice of the mechanism together with its motorisation as well; Beside, The mechanism was portrayed and designed by the mean of SolidWorks.
 
